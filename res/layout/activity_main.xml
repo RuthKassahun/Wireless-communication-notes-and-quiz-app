@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:background="#00bfff"
+       android:textColor="#ffffff"
+   
+       android:padding="30dp"
+       android:fontFamily="Imprint MT Shadow"
+        android:text="@string/start_quiz" 
+        android:id="@+id/start"/>
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="@string/s" 
+        android:id="@+id/text_view_highscore"/>
+    
+    
+    
+</LinearLayout>
